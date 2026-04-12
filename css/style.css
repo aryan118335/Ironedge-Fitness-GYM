@@ -440,10 +440,40 @@ nav {
 
 /* Footer */
 footer {
-    padding: 50px 20px;
+    padding: 60px 20px;
     text-align: center;
     background: #000;
     border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.footer-links a {
+    color: var(--text-muted);
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-family: var(--font-heading);
+    letter-spacing: 1px;
+}
+
+.footer-links a:hover {
+    color: var(--accent-orange);
+}
+
+.whatsapp-btn {
+    background-color: #25d366;
+    margin-top: 10px;
+}
+
+.whatsapp-btn:hover {
+    background-color: #1ebd5b;
+    box-shadow: 0 10px 20px rgba(37, 211, 102, 0.2);
 }
 
 /* Animations */
